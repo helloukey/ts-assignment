@@ -1,3 +1,4 @@
+// components
 import Card from "../components/Card";
 import Header from "../components/Header";
 
@@ -8,7 +9,9 @@ import ethereumIcon from "../assets/coins/ethereum.svg";
 import binanceIcon from "../assets/coins/binance.svg";
 import shibaIcon from "../assets/coins/shiba.svg";
 
-const Main = () => {
+type Props = {}
+
+const Main = (props: Props) => {
   return (
     <div className="w-full h-full flex flex-col justify-center">
       {/* Header */}

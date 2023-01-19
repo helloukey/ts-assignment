@@ -21,8 +21,20 @@ body {
   background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%);
 }
 
-.curve {
-  background-color: #1D2035;
+.shade-left {
+  border-left: 1px solid rgba(255,255,255,0.05);
+}
+
+.shade-right {
+  border-right: 1px solid rgba(255,255,255,0.05);
+}
+
+.shade-top {
+  border-top: 1px solid rgba(255,255,255,0.05);
+}
+
+.shade-bottom {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 
 .bitcoin-background {

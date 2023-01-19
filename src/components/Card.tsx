@@ -25,20 +25,20 @@ const Card = ({
   background,
 }: CardProps) => {
   return (
-    <div className="w-full h-fit relative rounded-3xl backdrop-blur-2xl p-4 card">
+    <div className="w-full h-fit relative rounded-3xl backdrop-blur-2xl p-4 card shade-left shade-right shadow-sm">
       {/* Circle */}
-      <div className="absolute rounded-full left-2/4 -translate-x-2/4 -top-20 backdrop-blur-2xl border-[10px] border-mybg curve">
+      <div className="absolute rounded-full left-2/4 -translate-x-2/4 -top-20 backdrop-blur-2xl border-[10px] border-mybg bg-mybg2">
         <img
           src={icon}
           alt={coin}
-          className={`rounded-full p-5 ${background}-background highlight-top`}
+          className={`rounded-full p-5 ${background}-background shade-top`}
         />
       </div>
 
       {/* Left Curve */}
-      <div className="absolute w-[96.5px] h-12 rounded-tl-3xl rounded-tr-3xl left-0 -top-[22px] backdrop-blur-2xl curve"></div>
+      <div className="absolute w-[96px] h-12 rounded-tl-3xl rounded-tr-3xl -left-[1px] -top-[22px] backdrop-blur-2xl bg-mybg2 shade-top shade-left"></div>
       {/* Right Curve */}
-      <div className="absolute w-[96.5px] h-12 rounded-tl-3xl rounded-tr-3xl right-0 -top-[22px] backdrop-blur-2xl curve"></div>
+      <div className="absolute w-[96px] h-12 rounded-tl-3xl rounded-tr-3xl -right-[1px] -top-[22px] backdrop-blur-2xl bg-mybg2 shade-top shade-right"></div>
 
       {/* demo */}
 

@@ -13,6 +13,18 @@ module.exports = {
         teritary: "#5A5F7D",
         positive: "#00FFA3",
         negative: "#FF4D4D",
+        trending: "#ECF0FF",
+        shade: "rgba(255,255,255,0.05)",
+      },
+      backgroundImage: {
+        card: "linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(46, 49, 73, 0.1) 107.43%)"
+      },
+      boxShadow: {
+        bitcoin: "inset 0px -24px 100px -100px #EAB300",
+        solana: "box-shadow: inset 0px -24px 100px -100px #DC1FFF",
+        ethereum: "box-shadow: inset 0px -24px 100px -100px #EDF0F4",
+        binance: "box-shadow: inset 0px -24px 100px -100px #EAB300",
+        shiba: "box-shadow: inset 0px -24px 100px -100px #E42D04",
       }
     },
   },

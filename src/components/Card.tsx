@@ -25,22 +25,22 @@ const Card = ({
   background,
 }: CardProps) => {
   return (
-    <div className="w-full h-fit relative rounded-3xl backdrop-blur-2xl p-4 card shade-left shade-right shadow-sm">
+    <div className="max-w-[290px] w-full h-fit relative rounded-3xl backdrop-blur-2xl p-4 bg-card border-l border-l-shade border-r border-r-shade shadow-sm mb-8">
       {/* Circle */}
-      <div className="absolute rounded-full left-2/4 -translate-x-2/4 -top-20 backdrop-blur-2xl border-[10px] border-mybg bg-mybg2">
+      <div className="z-[1000] absolute rounded-full left-2/4 -translate-x-2/4 -top-20 backdrop-blur-2xl border-[10px] border-mybg bg-mybg2">
         <img
           src={icon}
           alt={coin}
-          className={`rounded-full p-5 ${background}-background shade-top`}
+          className={`rounded-full p-5 shadow-${background} border-t border-t-shade`}
         />
+        {/* circle bordering */}
+        <div className="coining w-full h-full absolute p-14 bg-transparent -top-[13px] -left-[12px] rounded-full"></div>
       </div>
 
       {/* Left Curve */}
-      <div className="absolute w-[96px] h-12 rounded-tl-3xl rounded-tr-3xl -left-[1px] -top-[22px] backdrop-blur-2xl bg-mybg2 shade-top shade-left"></div>
+      <div className="absolute w-[95px] h-12 rounded-tl-3xl rounded-tr-3xl -left-[1px] -top-[22px] backdrop-blur-2xl bg-mybg2 border-t border-t-shade border-l border-l-shade"></div>
       {/* Right Curve */}
-      <div className="absolute w-[96px] h-12 rounded-tl-3xl rounded-tr-3xl -right-[1px] -top-[22px] backdrop-blur-2xl bg-mybg2 shade-top shade-right"></div>
-
-      {/* demo */}
+      <div className="absolute w-[95px] h-12 rounded-tl-3xl rounded-tr-3xl -right-[1px] -top-[22px] backdrop-blur-2xl bg-mybg2 border-t border-t-shade border-r border-r-shade"></div>
 
       <div className="flex flex-col gap-2">
         {/* Coin Name */}

@@ -17,7 +17,7 @@ const Main = (props: Props) => {
       {/* Header */}
       <Header />
       {/* Cards */}
-      <div className="w-full flex flex-nowrap gap-16">
+      <div className="w-full flex flex-wrap justify-center gap-16">
         <Card
           coin={"bitcoin"}
           shortName={"BTC"}

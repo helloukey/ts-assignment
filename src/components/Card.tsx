@@ -1,4 +1,4 @@
-// props
+// CardProps type
 type CardProps = {
   coin: string;
   shortName: string;
@@ -49,7 +49,7 @@ const Card = ({
         </h2>
 
         {/* Price */}
-        <div className="w-11/12 flex gap-4 items-center justify-center p-2 rounded-full bg-mybg mx-auto pricebox">
+        <div className="w-11/12 flex gap-4 items-center justify-center p-2 rounded-full bg-mybg mx-auto border-t border-pricebox">
           <p className="font-semibold text-base text-primary">${rate}</p>
           <p
             className={`font-semibold text-xs ${
@@ -67,7 +67,7 @@ const Card = ({
         </p>
 
         {/* Price3 */}
-        <div className="w-11/12 flex gap-4 items-center justify-center p-2 rounded-full bg-mybg mx-auto pricebox">
+        <div className="w-11/12 flex gap-4 items-center justify-center p-2 rounded-full bg-mybg mx-auto border-t border-pricebox">
           <p className="font-semibold text-base text-primary">$60,000</p>
         </div>
 

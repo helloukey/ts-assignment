@@ -13,6 +13,7 @@ module.exports = {
         teritary: "#5A5F7D",
         positive: "#00FFA3",
         negative: "#FF4D4D",
+        pricebox: "#474A5B",
         trending: "#ECF0FF",
         shade: "rgba(255,255,255,0.05)",
       },

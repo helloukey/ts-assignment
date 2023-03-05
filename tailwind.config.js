@@ -21,10 +21,10 @@ module.exports = {
       },
       boxShadow: {
         bitcoin: "inset 0px -24px 100px -100px #EAB300",
-        solana: "box-shadow: inset 0px -24px 100px -100px #DC1FFF",
-        ethereum: "box-shadow: inset 0px -24px 100px -100px #EDF0F4",
-        binance: "box-shadow: inset 0px -24px 100px -100px #EAB300",
-        shiba: "box-shadow: inset 0px -24px 100px -100px #E42D04",
+        solana: "inset 0px -24px 100px -100px #DC1FFF",
+        ethereum: "inset 0px -24px 100px -100px #EDF0F4",
+        binance: "inset 0px -24px 100px -100px #EAB300",
+        shiba: "inset 0px -24px 100px -100px #E42D04",
       }
     },
   },

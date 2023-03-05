@@ -17,7 +17,7 @@ body {
   background-color: #14172B;
 }
 
-.bitcoin-background {
+/* .bitcoin-background {
   box-shadow: inset 0px -24px 100px -100px #EAB300;
 }
 
@@ -35,7 +35,7 @@ body {
 
 .shiba-background {
   box-shadow: inset 0px -24px 100px -100px #E42D04;
-}
+} */
 
 .pricebox {
   border-top: 1px solid #474A5B;

@@ -31,7 +31,7 @@ const Card = ({
         <img
           src={icon}
           alt={coin}
-          className={`rounded-full p-5 shadow-${background} border-t border-t-shade`}
+          className={`rounded-full p-5 border-t border-t-shade shadow-${background}`}
         />
         {/* circle bordering */}
         <div className="coining w-full h-full absolute p-14 bg-transparent -top-[13px] -left-[12px] rounded-full"></div>

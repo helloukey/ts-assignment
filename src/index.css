@@ -17,26 +17,6 @@ body {
   background-color: #14172B;
 }
 
-/* .bitcoin-background {
-  box-shadow: inset 0px -24px 100px -100px #EAB300;
-}
-
-.solana-background {
-  box-shadow: inset 0px -24px 100px -100px #DC1FFF;
-}
-
-.ethereum-background {
-  box-shadow: inset 0px -24px 100px -100px #EDF0F4;
-}
-
-.binance-background {
-  box-shadow: inset 0px -24px 100px -100px #EAB300;
-}
-
-.shiba-background {
-  box-shadow: inset 0px -24px 100px -100px #E42D04;
-} */
-
 .pricebox {
   border-top: 1px solid #474A5B;
 }

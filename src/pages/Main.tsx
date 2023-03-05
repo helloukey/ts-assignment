@@ -28,7 +28,7 @@ const Main = (props: Props) => {
           pair1={solanaIcon}
           pair2={ethereumIcon}
           pair3={binanceIcon}
-          background="bitcoin"
+          background="shadow-bitcoin"
         />
         <Card
           coin={"solana"}
@@ -40,7 +40,7 @@ const Main = (props: Props) => {
           pair1={bitcoinIcon}
           pair2={ethereumIcon}
           pair3={binanceIcon}
-          background="solana"
+          background="shadow-solana"
         />
         <Card
           coin={"ethereum"}
@@ -52,7 +52,7 @@ const Main = (props: Props) => {
           pair1={solanaIcon}
           pair2={bitcoinIcon}
           pair3={binanceIcon}
-          background="ethereum"
+          background="shadow-ethereum"
         />
         <Card
           coin={"binance USD"}
@@ -64,7 +64,7 @@ const Main = (props: Props) => {
           pair1={solanaIcon}
           pair2={ethereumIcon}
           pair3={binanceIcon}
-          background="binance"
+          background="shadow-binance"
         />
         <Card
           coin={"shiba inu"}
@@ -76,7 +76,7 @@ const Main = (props: Props) => {
           pair1={solanaIcon}
           pair2={ethereumIcon}
           pair3={binanceIcon}
-          background="shiba"
+          background="shadow-shiba"
         />
       </div>
     </div>

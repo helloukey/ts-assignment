@@ -1,3 +1,5 @@
-# NOTE
+# TS-Assignment
 
-Assignment is for the desktop view only with dimension (1920x1080)
+TailwindCSS and React-Typescript Assignment.
+
+- Preview this project HERE: [https://dulcet-youtiao-6bd65a.netlify.app/](https://dulcet-youtiao-6bd65a.netlify.app/)
